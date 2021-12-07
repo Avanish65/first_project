@@ -1,0 +1,30 @@
+
+{"intents": [
+  {"tag": "luckpot",
+    "patterns": ["why luckpot not working", "luckypot does not pop up", "luckyjar not working", "luckyjar does not pop up", "What happened to the Jar? Haven't received it for 2 days now", "jar is not working", "", "why does my lucky jar doesnt appear"],
+    "responses": ["Hey, try to clear the web caches or try in new browser", "Make sure you've shared significant amount of credits on previous day to claim your luckypot ", "Hey, try to clear the web caches or try in new browser.Make sure you've shared significant amount of credits on previous day to claim your luckypot "],
+    "context_set": ""
+  },
+  {"tag": "traffic",
+    "patterns": ["Why my traffic and earnings suddenly decreased?", "my traffic is low", "my traffic decreased alot", "traffic died ", "traffic is dead", "traffic is reduced to half"],
+    "responses": ["Earning depending factors
+
+    📱 The number of devices
+    📶 The number of IP addresses
+    🧑‍💻 The number of users in your area
+    🌏 The traffic demand in your area
+    🚀 The speed of your network(s)","Demand and supply are affected by the rapid growth of new users (more supply) or less demand from our customers. Thats basically why it is changing constantly. 
+    Demand from our customers is also changing due to the fact that they are interested in different locations for their needs. 
+    Lastly, there is impact from global trends. For example, we are expecting traffic increase before/during black friday events, and after them, because most of the companies will be focusing on christmas and new years advertising, searches, checking, and so on "],
+    "context_set": ""
+  },
+  {"tag": "Overused",
+    "patterns": ["only one device is working still getting overused", "getting overused message", "Honeygaun says overused eventhough I've one app working", "why I'm getting overused message"],
+    "responses": ["It is possible that you were assigned a used/in-use IP address by your ISP. As there is a limited amount of IPv4 addresses throughout the world and the amount of free (not used) IPv4 addresses is running out, some ISPs are assigning the same IP address to multiple users and this may be the case with your account. If the same IP address is assigned to multiple people and those people are using Honeygain as well, the Network Overused error message would appear, as there would be more than two devices on the same IP address from multiple accounts.
+
+    Please turn off the router for 10 minutes and hopefully you will get a new IP that is not being used. It is also very important that you check your IP before you do it by visiting this site https://ip2location.com/ and then compare both IPs after rebooting your router to make sure you have in fact a new IP was assigned to you. 
+    "],
+    "context_set": ""
+  }
+]
+}
